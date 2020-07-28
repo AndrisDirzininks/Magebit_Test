@@ -1,0 +1,180 @@
+.viss_logs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.galv_{
+  position: relative;
+  padding-top: 80px;
+  text-align: center;
+  min-width:1000px;
+  }
+/* kreisais-labais logs */
+.sign_up{position: relative;
+  width: 460px;
+  height: 420px;
+  color: white;
+  background-color: rgba(28, 38, 56, 0.94);
+/* vertikālai centrēšanai */
+  vertical-align: middle;
+  display: inline-block;
+  margin: -2px;
+  text-align: left;
+}
+/* peldošais logs pa vidu */
+.peld_logs{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 460px;
+  height: 460px;
+  background-color: white;
+  color: black;
+  /* vertikālai centrēšanai */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eena2{
+  position: absolute;
+  padding-left: 460px;
+  margin-top: -406px;
+  z-index: -1;
+}
+
+.eena{
+  display: none;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 0px;
+  z-index: -1;
+}
+
+h1{
+    font-weight: 300;
+}
+h4{
+    letter-spacing: 1px;
+    line-height: 2;
+}
+  body{
+  background-image: url("../images/Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+  ;
+}
+/* pēdējā (dziļākā) bloka stils */
+.virs2{
+  margin:65px;}
+img.ikona{
+  float: right;
+  margin-top: 10px;
+}
+img.ikona2{
+  float: right;
+  margin-top: -50px;
+  }
+
+/* sarkanā zvaigznīte */
+.sp1{
+color: red
+}
+/* style for line */
+.virsr3{
+  font-size: large;
+  font-weight: bold;
+}
+.line1{
+border: 0.5px solid rgb(73,171,254);
+margin-right: 280px;
+}
+/* style for the first button */
+.poga1{
+  border:1.5px solid rgb(73,171,254);
+  border-radius: 25px;
+  background-color: rgba(255, 0, 0, 0);
+  padding: 15px 43px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  transition-duration: 0.4s;
+  outline: none;
+}
+.poga1:hover{
+  background-color: rgb(73,171,254);
+}
+.poga1:focus{
+    background-color: rgba(73,171,254,0);
+}
+#poga3{
+  border: none;
+  color: grey;
+  float:right;
+  margin-top: 20px;
+}
+#poga3:hover{
+  background-color: rgba(73,171,254,0)
+}
+.poga4{
+  line-height: 4;
+  color: black;
+  text-decoration: none;
+}
+.forma1{
+  line-height: 2;
+}
+.dati1{
+  width: 330px;
+  border: none;
+  border-bottom: 1px solid rgb(203,210,223);
+}
+#poga2{
+  margin-top: 20px;
+  border:1.5px solid rgb(248,154,43);
+  background-color: rgb(248,154,43);
+}
+.footeris{
+left: 0;
+bottom: 0;
+width: 100%;
+}
+#bilde3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+/* logged_in lapas css */
+/* logged_in lapas pogas */
+.poga5{
+  border:0.5px solid grey;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: rgba(73,171,254,0.7);
+  padding: 15px 43px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+.poga6{
+  padding: 15px 26px;
+}
+.line2{
+  border: 0.5px solid rgb(73,171,254);
+  /* background-color: rgb(73,171,254); */
+}
+.viss_logs2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lists1{
+  margin-bottom: -10px;
+}
